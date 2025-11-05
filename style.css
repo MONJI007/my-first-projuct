@@ -933,7 +933,7 @@ footer::before {
     width: 100%;
     background-size: cover;
     background-position: center;
-     background-image: url(photos/subscribe.jpg);
+     background-image: url(subscribe.jpg);
      background-position: top;
 }
 footer h3 {
