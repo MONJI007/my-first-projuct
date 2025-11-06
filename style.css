@@ -132,8 +132,13 @@ nav{
     transition: transform 1s ease;
 }
 .slide {
+    width: 100%;
+    height: 100vh;
+}
+.slide {
      width: clamp(10rem,100vw,100%);
 }
+
 #slide1:checked ~ .slides {
     transform: translateX(0vw);
 }
@@ -207,10 +212,6 @@ nav{
     
     display: block;
     margin: 0 auto;
-}
-.slide {
-    width: 100vw;
-    height: 100vh;
 }
 /* Slide parent de l’image cta-bg.jpg */
 #photo2 {
