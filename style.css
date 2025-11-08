@@ -131,7 +131,7 @@ nav{
     transition: transform 1s ease;
 }
 .slide {
-    width: 100vw;
+    width: 33.3333%;
     height: 100vh;
 }
 #slide1:checked ~ .slides {
