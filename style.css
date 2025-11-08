@@ -138,10 +138,10 @@ nav{
     transform: translateX(0vw);
 }
 #slide2:checked ~ .slides {
-    transform: translateX(-100%);
+    transform: translateX(-33.3333%);
 }
 #slide3:checked ~ .slides {
-    transform: translateX(-200%);
+    transform: translateX(-66.6666%);
 }
 .ronds label{
     width: 20px;
