@@ -8,7 +8,6 @@
     --main-border :#3dbcef solid 1px ;
     --main-color :#3dbcef;
 }
-html,body {overflow-x:hidden;}
 .hero-section {
     background-image:url("images/landing.jpg");
     background-size: cover;
@@ -466,6 +465,9 @@ video {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+.tel img {
+    max-width:100%
 }
 .numbers {
     position: absolute;
@@ -1143,16 +1145,8 @@ footer small span {
   .weare button  {
        transform: scale(0.8);  
     }
-    .tel img {
-         transform: scale(0.6); 
-    }
 }
-@media(max-width:460px) {
- 
-    .tel img {
-         transform: scale(0.4); 
-    }
-}
+
 @media(max-width:800px) {
  
     .nombres {
