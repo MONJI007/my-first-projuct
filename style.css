@@ -8,6 +8,7 @@
     --main-border :#3dbcef solid 1px ;
     --main-color :#3dbcef;
 }
+html,body {overflow-x:hidden;}
 .hero-section {
     background-image:url("images/landing.jpg");
     background-size: cover;
